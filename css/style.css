@@ -1,0 +1,51 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150_1280.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#category-products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #dddddd71;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(217, 255, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(39, 39, 39, 255);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: auto;
+  margin: auto 0;
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+.product-title {
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.product-description {
+  font-size: 17px;
+  font-style: italic;
+}
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+}
